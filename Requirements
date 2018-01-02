@@ -1,0 +1,25 @@
+The board will be positioned like
+      i j k l m
+      h       n
+      g       o
+      f       p
+      e d c b a
+Four sides consisting of five squares
+The middle squares will contain a wild card(c,g,k,o)
+The Corner Squares will be special
+a:will have a rewared($100)
+e:jail
+i:free parking(chance reward)
+m:go to jail
+squares:b,d,f,h,j,l,n,p will contain land availabe for purchase and increase in value by $20
+Players will start with $100
+Classes
+    Main
+        Name
+        Money
+        Piece
+        Dice
+        Roll(1-6)
+        Board
+            Board colors
+            BoardPositions(1-16)
